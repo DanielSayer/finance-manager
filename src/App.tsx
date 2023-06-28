@@ -1,5 +1,7 @@
+import Button from "./components/Button"
+
 const App = (): React.ReactElement => {
-  return <div>App</div>
+  return <Button onClick={() => console.log("Clicked")} />
 }
 
 export default App
